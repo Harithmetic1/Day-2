@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+body{
+    background: url(new2.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#header{
+    font-family: 'Lobster', cursive;
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+#login{
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+#user{
+    margin-top: 160px;
+    margin-left: 60px;
+    border: none;
+    border-bottom: 2px solid #f2850c;
+    height: 25px;
+    width: 300px;
+}
+#fname{
+    position: absolute;
+    margin-top: 62px;
+    margin-left: 60px;
+    border: none;
+    border-bottom: 2px solid #f2850c;
+    height: 25px;
+    width: 300px;
+}
+
+#sname{
+    position: absolute;
+    margin-top: 112px;
+    margin-left: 60px;
+    border: none;
+    border-bottom: 2px solid #f2850c;
+    height: 25px;
+    width: 300px;
+}
+
+#second{
+    position: absolute;
+   margin-top: 97px;
+   color: black;
+   margin-left: 60px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 0.7em;
+}
+#userp{
+    position: absolute;
+   margin-top: -43px;
+   color: black;
+   margin-left: 60px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 0.7em;
+}
+
+#pass{
+    position: absolute;
+   margin-top: 5px;
+   color: black;
+   margin-left: 60px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 0.7em;
+}
+
+#first{
+    position: absolute;
+   margin-top: 18px;
+   color: black;
+   margin-left: 60px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 0.7em;
+}
+input[type=text]:focus {
+    border: 3px solid  #f2850c;
+}
+input{
+    background-color: #f5ddbd;
+    width: 200px;
+}
+#password{
+    position: absolute;
+    margin-top: 210px;
+    margin-left: -320px;
+    border: none;
+    border-bottom: 2px solid #f2850c;
+    height: 25px;
+    width: 300px;
+}
+#button {
+    background-color: #f2850c;
+    border: none;
+    color: white;
+    padding: 15px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-left: -180px;
+    margin-top: 250px;
+    position: absolute;
+}
+
+#log{
+    background-color: #f2850c;
+    border: none;
+    color: white;
+    padding: 15px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 210px;
+    margin-top: -20px;
+    position: absolute;
+    height: 25px;
+}
+
+#user1{
+    position: absolute;
+    margin-left: -168px;
+    margin-top: 55px;
+}
+#lock{
+    position: absolute;
+    margin-left: -168px;
+    margin-top: 20px;
+}
+#forgot{
+    position: absolute;
+    font-size: 10px;
+    font-family: sans-serif;
+    margin-left: 50px;
+    color: #242424;
+    margin-top: -45px;
+    padding: 155px;
+   
+}
+input[type=password]{
+    padding-left: 5px !important;
+    width: 150px;
+}
+input[type=text]{
+    padding-left: 5px;
+    width: 150px;
+}
+@media screen and (min-width: 300px) {
+    body{
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #header{
+        margin-left: 35px;
+    }
+    #button{
+        margin-left: -145px;
+    }
+    #login{
+        width: 300px;
+        height: 350px;
+        margin-left: 25px;
+    }
+    #first{
+        margin-top: 48px;
+    }
+    #forgot{
+       margin-left: -50px;
+       width: 100px;
+       font-size: 0.7em;     
+    }
+    #log{
+        margin-left: 110px;
+    }
+    #fname{
+        position: absolute;
+        margin-top: 62px;
+        margin-left: 60px;
+        border: none;
+        border-bottom: 2px solid #f2850c;
+        height: 25px;
+        width: 180px;
+    }
+    #user{
+        margin-top: 160px;
+        margin-left: 60px;
+        border: none;
+        border-bottom: 2px solid #f2850c;
+        height: 25px;
+        width: 180px;
+    }
+    #sname{
+        position: absolute;
+        margin-top: 112px;
+        margin-left: 60px;
+        border: none;
+        border-bottom: 2px solid #f2850c;
+        height: 25px;
+        width: 180px;
+    }
+    #password{
+        position: absolute;
+        margin-top: 210px;
+        margin-left: -185px;
+        border: none;
+        border-bottom: 2px solid #f2850c;
+        height: 25px;
+        width: 180px;
+}
+}
+@media screen and (min-width: 340px) {
+    body{
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #header{
+        margin-left: 35px;
+    }
+    #button{
+        margin-left: -145px;
+    }
+    #login{
+        width: 300px;
+        height: 350px;
+        margin-left: 55px;
+    }
+    #first{
+        margin-top: 48px;
+    }
+    #forgot{
+       margin-left: -50px;
+       width: 100px;
+       font-size: 0.7em;     
+    }
+    #log{
+        margin-left: 110px;
+    }
+    #fname{
+        position: absolute;
+        margin-top: 62px;
+        margin-left: 60px;
+        border: none;
+        border-bottom: 2px solid #f2850c;
+        height: 25px;
+        width: 180px;
+    }
+    #user{
+        margin-top: 160px;
+        margin-left: 60px;
+        border: none;
+        border-bottom: 2px solid #f2850c;
+        height: 25px;
+        width: 180px;
+    }
+    #sname{
+        position: absolute;
+        margin-top: 112px;
+        margin-left: 60px;
+        border: none;
+        border-bottom: 2px solid #f2850c;
+        height: 25px;
+        width: 180px;
+    }
+    #password{
+        position: absolute;
+        margin-top: 210px;
+        margin-left: -185px;
+        border: none;
+        border-bottom: 2px solid #f2850c;
+        height: 25px;
+        width: 180px;
+}
+}
+@media screen and (min-width: 400px) {
+    body{
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #login{
+        width: 350px;
+        height: 350px;
+        margin-left: 50px;
+    }
+    #forgot{
+       margin-left: -40px;
+    }
+    #log{
+        margin-left: 140px;
+    }
+    #button{
+        margin-left: -155px;
+    }
+    #fname{
+        position: absolute;
+        margin-top: 62px;
+        margin-left: 60px;
+        border: none;
+        border-bottom: 2px solid #f2850c;
+        height: 25px;
+        width: 200px;
+    }
+    #user{
+        margin-top: 160px;
+        margin-left: 60px;
+        border: none;
+        border-bottom: 2px solid #f2850c;
+        height: 25px;
+        width: 200px;
+    }
+    #sname{
+        position: absolute;
+        margin-top: 112px;
+        margin-left: 60px;
+        border: none;
+        border-bottom: 2px solid #f2850c;
+        height: 25px;
+        width: 200px;
+    }
+    #password{
+        position: absolute;
+        margin-top: 210px;
+        margin-left: -205px;
+        border: none;
+        border-bottom: 2px solid #f2850c;
+        height: 25px;
+        width: 200px;
+}
+}
+@media screen and (min-width: 700px) {
+   
+    body{
+        background-size: cover;
+        background-repeat: no-repeat;
+    } 
+    #login{
+        margin-top: 150px;
+        width: 400px;
+        height: 400px;
+        margin-left: 130px;
+    }
+    #forgot{
+        margin-left: 10px;
+    }
+    #header{
+        margin-left: -80px;
+    }
+    #log{
+        margin-left: 160px;
+    }
+    #fname{
+        position: absolute;
+        margin-top: 62px;
+        margin-left: 60px;
+        border: none;
+        border-bottom: 2px solid #f2850c;
+        height: 25px;
+        width: 250px;
+    }
+    #user{
+        margin-top: 160px;
+        margin-left: 60px;
+        border: none;
+        border-bottom: 2px solid #f2850c;
+        height: 25px;
+        width: 250px;
+    }
+    #sname{
+        position: absolute;
+        margin-top: 112px;
+        margin-left: 60px;
+        border: none;
+        border-bottom: 2px solid #f2850c;
+        height: 25px;
+        width: 250px;
+    }
+    #password{
+        position: absolute;
+        margin-top: 210px;
+        margin-left: -255px;
+        border: none;
+        border-bottom: 2px solid #f2850c;
+        height: 25px;
+        width: 250px;
+}
+}
+@media screen and (min-width: 1020px) {
+    body{
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #login{
+        width: 500px;
+        height: 450px;
+        margin-left: 180px;
+    }
+    #forgot{
+        margin-left: 60px;
+    }
+    #fname{
+        position: absolute;
+        margin-top: 62px;
+        margin-left: 60px;
+        border: none;
+        border-bottom: 2px solid #f2850c;
+        height: 25px;
+        width: 300px;
+    }
+    #log{
+        margin-left: 220px;
+    }
+    #user{
+        margin-top: 160px;
+        margin-left: 60px;
+        border: none;
+        border-bottom: 2px solid #f2850c;
+        height: 25px;
+        width: 300px;
+    }
+    #sname{
+        position: absolute;
+        margin-top: 112px;
+        margin-left: 60px;
+        border: none;
+        border-bottom: 2px solid #f2850c;
+        height: 25px;
+        width: 300px;
+    }
+    #password{
+        position: absolute;
+        margin-top: 210px;
+        margin-left: -305px;
+        border: none;
+        border-bottom: 2px solid #f2850c;
+        height: 25px;
+        width: 300px;
+}
+}
+@media screen and (min-width: 1200px) {
+    body{
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #login{
+        width: 500px;
+        height: 400px;
+        margin-left: 400px;
+        margin-top: 10px;
+    }
+    #first{
+    position: absolute;
+   margin-top: 48px;
+   color: black;
+}
+input{
+    background-color: #f5ddbd;
+    width: 400px;
+}
+}
